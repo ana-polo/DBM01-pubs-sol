@@ -12,16 +12,16 @@
     1. [Creation of the tables of the DB.](#create)
     2. [Updating the tables to create the foreign key constrains.](#fk-constraint)
 	
-
+	
+&nbsp;
 <a name="general-info"></a>
 ### 1. General Info
 ***
-**Status:** DONE.
 
 *Training exercise of design and management of databases carried out in the field of Database Management in the Higher Vocational training Degree in Management of Computer Network Systems.*
 
 
-
+&nbsp;
 <a name="technologies"></a>
 ### 2. Technologies
 ***
@@ -30,7 +30,7 @@ A list of technologies used within the project:
     - SQL-DDL: Data Definition Language* 
 
 
-
+&nbsp;
 <a name="collaboration"></a>
 ### 3. Collaboration
 ***
@@ -40,60 +40,62 @@ Students:
 *IrvingVqz.*
 
 
-
+&nbsp;
 <a name="problem-definition"></a>
 ### 4. Problem definition
 ***
 <a name="create"></a>
 #### i. Create a new database called pubs with the following tables in the new database:
-
-
+#
+&nbsp;
 <details>
     <summary>CLICK ME TO SEE THE TABLES DEFINITION</summary>
 
-	
+&nbsp;	
 *PUBS*
-    - id_pub IDENTIFIER. 
-    - pub_name 
-    - address 
-    - cif
-    - first_day
-    - time_open
-    - post_code 
-    - town
+- id_pub IDENTIFIER. 
+- pub_name 
+- address 
+- cif
+- first_day
+- time_open
+- post_code 
+- town
   
     
 *PUB_OWNWER*  
-    - id_nif IDENTIFIER.
-    - owner_name
-    - address
-    - pub
+- id_nif IDENTIFIER.
+- owner_name
+- address
+- pub
 	
   
 *EMPLOYER* 
-    - id_nif IDENTIFIER.
-    - employer_name
-    - address
+- id_nif IDENTIFIER.
+- employer_name
+- address
 
   
 *TOWN*
-    - id_town IDENTIFIER.
-    - name
+- id_town IDENTIFIER.
+- name
 
   
 *PRODUCT*  
-    - id_product IDENTIFIER.
-    - stock      
-    - price 
-    - fk_id_pub
+- id_product IDENTIFIER.
+- stock      
+- price 
+- fk_id_pub
   
   
 *PUB_EMPLOYER*  
-    - fk_id_pub IDENTIFIER.       
-    - id_employer IDENTIFIER.
-    - role
+- fk_id_pub IDENTIFIER.       
+- id_employer IDENTIFIER.
+- role
 
 </details>
+
+&nbsp;
 
 
 **👀 Remember to not forget!** 
@@ -101,11 +103,13 @@ Students:
 - All table must have one, and only one, PRIMARY KEY.		 
 - Properly format and document the code.
 
-
+&nbsp;
+&nbsp;
 <a name="fk-constraint"></a>
 #### ii. Updating the tables to create the foreign key constrains.
+#
 
- 
+&nbsp;
 **👀 Remember to not forget!** 
 - Properly format and document the code.		 
  
