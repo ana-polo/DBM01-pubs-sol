@@ -47,11 +47,19 @@ Students:
 <a name="create"></a>
 #### i. Create a new database called pubs with the following tables in the new database:
 #
-&nbsp;
+
+
+**👀 Remember to not forget!** 
+- Choose the appropriate data type for each record. 
+- All table must have one, and only one, PRIMARY KEY.		 
+- Properly format and document the code.
+
+&nbsp;	
 <details>
     <summary>CLICK ME TO SEE THE TABLES DEFINITION</summary>
 
-&nbsp;	
+<br />
+	
 *PUBS*
 - id_pub IDENTIFIER. 
 - pub_name 
@@ -95,13 +103,6 @@ Students:
 
 </details>
 
-&nbsp;
-
-
-**👀 Remember to not forget!** 
-- Choose the appropriate data type for each record. 
-- All table must have one, and only one, PRIMARY KEY.		 
-- Properly format and document the code.
 
 &nbsp;
 &nbsp;
@@ -109,7 +110,7 @@ Students:
 #### ii. Updating the tables to create the foreign key constrains.
 #
 
-&nbsp;
+
 **👀 Remember to not forget!** 
 - Properly format and document the code.		 
  
