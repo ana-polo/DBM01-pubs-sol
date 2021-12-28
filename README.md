@@ -1,4 +1,4 @@
-# DBM01-pubs
+# DBM01-pubs-sol
 
 ![Logo de Team](https://github.com/ana-polo/DBM01-pubs/blob/main/DBM.gif "Team logo")
 
@@ -17,7 +17,6 @@
 <a name="general-info"></a>
 ### 1. General Info
 ***
-
 *Training exercise of design and management of databases carried out in the field of Database Management in the Higher Vocational training Degree in Management of Computer Network Systems.*
 
 
@@ -25,7 +24,6 @@
 <a name="technologies"></a>
 ### 2. Technologies
 ***
-A list of technologies used within the project:
 *MySQL: Version 8.0 
     - SQL-DDL: Data Definition Language* 
 
@@ -35,9 +33,9 @@ A list of technologies used within the project:
 ### 3. Collaboration
 ***
 Students:
-*Haplo35.* 
-*ErnestoPGH.* 
-*IrvingVqz.*
+- *Haplo35.* 
+- *ErnestoPGH.* 
+- *IrvingVqz.*
 
 
 &nbsp;
@@ -61,45 +59,51 @@ Students:
 <br />
 	
 *PUBS*
-- id_pub IDENTIFIER. 
-- pub_name 
-- address 
-- cif
-- first_day
-- time_open
-- post_code 
-- town
+
+	- id_pub IDENTIFIER. 
+	- pub_name 
+	- address 
+	- cif
+	- first_day
+	- time_open
+	- post_code 
+	- town
   
     
 *PUB_OWNWER*  
-- id_nif IDENTIFIER.
-- owner_name
-- address
-- pub
+
+	- id_nif IDENTIFIER.
+	- owner_name
+	- address
+	- pub
 	
   
 *EMPLOYER* 
-- id_nif IDENTIFIER.
-- employer_name
-- address
+
+	- id_nif IDENTIFIER.
+	- employer_name
+	- address
 
   
 *TOWN*
-- id_town IDENTIFIER.
-- name
+
+	- id_town IDENTIFIER.
+	- name
 
   
 *PRODUCT*  
-- id_product IDENTIFIER.
-- stock      
-- price 
-- fk_id_pub
+
+	- id_product IDENTIFIER.
+	- stock      
+	- price 
+	- fk_id_pub
   
   
 *PUB_EMPLOYER*  
-- fk_id_pub IDENTIFIER.       
-- id_employer IDENTIFIER.
-- role
+
+	- fk_id_pub IDENTIFIER.       
+	- id_employer IDENTIFIER.
+	- role
 
 </details>
 
@@ -113,4 +117,5 @@ Students:
 
 **👀 Remember to not forget!** 
 - Properly format and document the code.		 
+ 
  
