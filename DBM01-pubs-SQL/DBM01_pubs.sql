@@ -6,7 +6,7 @@
 
 /*--- First step:  We create the BD */
 
-/*--- DROP DATABASE IF EXISTS dbm01_pubs; */
+DROP DATABASE IF EXISTS dbm01_pubs;
 CREATE DATABASE IF NOT EXISTS dbm01_pubs;
 USE dbm01_pubs; 
 
