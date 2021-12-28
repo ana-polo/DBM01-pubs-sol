@@ -24,8 +24,8 @@
 <a name="technologies"></a>
 ### 2. Technologies
 ***
-*MySQL: Version 8.0 
-    - SQL-DDL: Data Definition Language* 
+*MySQL Version 8.0* 
+- SQL-DDL: Data Definition Language 
 
 
 &nbsp;
@@ -117,5 +117,4 @@ Students:
 
 **👀 Remember to not forget!** 
 - Properly format and document the code.		 
- 
  
