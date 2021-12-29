@@ -7,7 +7,7 @@
 /*--- First step:  We create the BD */
 
 DROP DATABASE IF EXISTS dbm01_pubs;
-CREATE DATABASE IF NOT EXISTS dbm01_pubs;
+CREATE DATABASE IF NOT EXISTS dbm01_pubs CHARACTER SET utf8mb4 COLLATE utf8mb4_spanish_ci;
 USE dbm01_pubs; 
 
 
@@ -32,7 +32,7 @@ CREATE TABLE IF NOT EXISTS pub (
     /*--- Fourth step: We create the constraints. Remenber that all tables must have a PRIMERY KEY */
 
 	 CONSTRAINT pk_pubs PRIMARY KEY ( id_pub )
-);
+) ENGINE = InnoDB;
 
 
 /* 
@@ -52,7 +52,7 @@ CREATE TABLE IF NOT EXISTS pub_owner (
     /*--- Fourth step: We create the constraints. Remenber that all tables must have a PRIMERY KEY */
 
 	 CONSTRAINT pk_pub_owner PRIMARY KEY ( id_nif )
-);
+) ENGINE = InnoDB;
 
 
 /* 
@@ -71,7 +71,7 @@ CREATE TABLE IF NOT EXISTS employer (
     /*--- Fourth step: We create the constraints. Remenber that all tables must have a PRIMERY KEY */
 
 	 CONSTRAINT pk_employer PRIMARY KEY ( id_nif )
-);
+) ENGINE = InnoDB;
 
 
 /* 
@@ -89,7 +89,7 @@ CREATE TABLE IF NOT EXISTS town (
     /*--- Fourth step: We create the constraints. Remenber that all tables must have a PRIMERY KEY */
 
 	 CONSTRAINT pk_town PRIMARY KEY ( id_town )
-);
+) ENGINE = InnoDB;
 
 
 /* 
@@ -102,14 +102,14 @@ CREATE TABLE IF NOT EXISTS products (
 	/*--- Third step:  We create the columns */
 
 	id_product SMALLINT NOT NULL, name VARCHAR(20) NOT NULL, 
-	stock SMALLINT NOT NULL,  
+	stock SMALLINT UNSIGNED NOT NULL, /* It can not be negative */  
 	price DECIMAL( 5, 2 ) NOT NULL, 
 	fk_id_pub INT NOT NULL,
     
     /*--- Fourth step: We create the constraints. Remenber that all tables must have a PRIMERY KEY */
 
 	CONSTRAINT pk_product PRIMARY KEY ( id_product )    
-); 
+) ENGINE = InnoDB; 
 
 
 /* 
@@ -128,7 +128,7 @@ CREATE TABLE IF NOT EXISTS pub_employer (
     /*--- Fourth step: We create the constraints. Remenber that all tables must have a PRIMERY KEY */
 
 	CONSTRAINT pk_pub_employer PRIMARY KEY ( fk_id_pub, fk_id_employer )
-);
+) ENGINE = InnoDB;
 
 
 
