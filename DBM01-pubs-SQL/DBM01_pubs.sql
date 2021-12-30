@@ -4,9 +4,12 @@
     Author: Ana Polo  Arozamena                                      
 */
 
+
 /*--- First step:  We create the BD */
 
 DROP DATABASE IF EXISTS dbm01_pubs;
+
+
 CREATE DATABASE IF NOT EXISTS dbm01_pubs CHARACTER SET utf8mb4 COLLATE utf8mb4_spanish_ci;
 USE dbm01_pubs; 
 
@@ -49,7 +52,7 @@ CREATE TABLE IF NOT EXISTS pub_owner (
 	address VARCHAR( 50 ) NOT NULL,  
 	fk_id_pub INT NOT NULL,
     
-    /*--- Fourth step: We create the constraints. Remenber that all tables must have a PRIMERY KEY */
+        /*--- Fourth step: We create the constraints. Remenber that all tables must have a PRIMERY KEY */
 
 	 CONSTRAINT pk_pub_owner PRIMARY KEY ( id_nif )
 ) ENGINE = InnoDB;
