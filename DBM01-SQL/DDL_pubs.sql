@@ -7,11 +7,11 @@
 
 /*--- First step:  We create the BD */
 
-DROP DATABASE IF EXISTS dbm01_pubs;
+DROP DATABASE IF EXISTS pubs;
 
 
-CREATE DATABASE IF NOT EXISTS dbm01_pubs CHARACTER SET utf8mb4 COLLATE utf8mb4_spanish_ci;
-USE dbm01_pubs; 
+CREATE DATABASE IF NOT EXISTS pubs CHARACTER SET utf8mb4 COLLATE utf8mb4_spanish_ci;
+USE pubs; 
 
 
 /* 

@@ -25,7 +25,7 @@
 ### 2. Technologies
 ***
 *MySQL Version 8.0* 
-- SQL-DDL: Data Definition Language 
+    - SQL-DDL: Data Definition Language.
 
 
 &nbsp;
@@ -47,10 +47,11 @@ Students:
 #
 
 
-**👀 Remember to not forget!** 
+👀 **Remember to not forget!** 
 - Choose the appropriate data type for each record. 
 - All table must have one, and only one, PRIMARY KEY.		 
 - Properly format and document the code.
+- Save all these orders in the file whose name is **DDL_pubs.sql** inside the **DBM01-SQL** directory.
 
 &nbsp;	
 <details>
@@ -115,6 +116,6 @@ Students:
 #
 
 
-**👀 Remember to not forget!** 
-- Properly format and document the code.		 
- 
+👀 **Remember to not forget!** 
+- Properly format and document the code.
+- Save all these orders in the file whose name is **DML_pubs.sql** inside the **DBM01-SQL** directory.
