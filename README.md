@@ -28,7 +28,7 @@
 
 ***
 *MySQL Version 8.0*
-    - SQL-DDL: Data Definition Language.
+           * SQL-DDL: Data Definition Language.
 
 &nbsp;
 <a name="collaboration"></a>
@@ -52,62 +52,62 @@ Students:
 
 #### i. Create a new database called pubs with the following tables in the new database
 
-#
+
 
 👀 **Remember to not forget!**
 
 - Choose the appropriate data type for each record.
-- All table must have one, and only one, PRIMARY KEY.   
+- All table must have one, and only one, PRIMARY KEY.
 - Properly format and document the code.
 - Save all these orders in the file whose name is **DDL_pubs.sql** inside the **DBM01-SQL** directory.
 
-&nbsp; 
+&nbsp;
 <details>
     <summary>CLICK ME TO SEE THE TABLES DEFINITION</summary>
 
 <br />
- 
-*PUBS*
 
-* id_pub IDENTIFIER. 
-* pub_name 
- - address 
- - cif
- - first_day
- - time_open
- - post_code 
- - town
+##### PUBS
+
+        * id_pub IDENTIFIER. 
+        * pub_name 
+        * address 
+        * cif
+        * first_day
+        * time_open
+        * post_code 
+        * town
   
 *PUB_OWNWER*  
 
- - id_nif IDENTIFIER.
- - owner_name
- - address
- - pub
- 
+        * id_nif IDENTIFIER.
+        * owner_name
+        * address
+        * pub
+
 *EMPLOYER*
 
- - id_nif IDENTIFIER.
- - employer_name
- - address
+        * id_nif IDENTIFIER.
+        * employer_name
+        * address
 
 *TOWN*
 
- - id_town IDENTIFIER.
- - name
+        * id_town IDENTIFIER.
+        * name
 
 *PRODUCT*  
 
- - id_product IDENTIFIER.
- - stock      
- - price 
- - fk_id_pub
+        * id_product IDENTIFIER.
+        * stock      
+        * price 
+        * fk_id_pub
   
-*PUB_EMPLOYER*  
+##### PUB_EMPLOYER*  
 
- - fk_id_pub IDENTIFIER.       
- - id_employer IDENTIFIER.
- - role
+        * fk_id_pub IDENTIFIER.       
+        * id_employer IDENTIFIER.
+        * role
 
 </details>
 
@@ -117,7 +117,7 @@ Students:
 
 #### ii. Updating the tables to create the foreign key constrains
 
-#
+
 
 👀 **Remember to not forget!**
 
