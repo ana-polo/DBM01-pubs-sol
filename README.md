@@ -2,19 +2,16 @@
 
 ![Logo de Team](https://github.com/ana-polo/DBM01-pubs/blob/main/DBM.gif "Team logo")
 
-<a name="top"></a>
-
 ## Table of Contents
 
-1. [General Info.](#general-info)
-2. [Technologies.](#technologies)
-3. [Collaboration.](#collaboration)
-4. [Problem definition.](#problem-definition)
-    1. [Creation of the tables of the DB.](#create)
-    2. [Updating the tables to create the foreign key constrains.](#fk-constraint)
+1. [General Info.](#1.-General-Info)
+2. [Technologies.](#2.-Technologies)
+3. [Collaboration.](#3.-Collaboration)
+4. [Problem definition.](#4.-Problem-definition)
+    1. [Creation of the tables of the DB.](# i.-DDL)
+    2. [Updating the tables to create the foreign key constrains.](#ii.-DML)
 
 &nbsp;
-<a name="general-info"></a>
 
 ### 1. General Info
 
@@ -22,7 +19,6 @@
 *Training exercise of design and management of databases carried out in the field of Database Management in the Higher Vocational training Degree in Management of Computer Network Systems.*
 
 &nbsp;
-<a name="technologies"></a>
 
 ### 2. Technologies
 
@@ -32,7 +28,6 @@
 - *SQL-DDL*: Data Definition Language.
 
 &nbsp;
-<a name="collaboration"></a>
 
 ### 3. Collaboration
 
@@ -44,23 +39,27 @@ Students:
 - *IrvingVqz.*
 
 &nbsp;
-<a name="problem-definition"></a>
 
 ### 4. Problem definition
 
 ***
-<a name="create"></a>
 
-#### i. Create a new database called pubs with the following tables in the new database
+#### i. DDL
 
+***
 
+:pencil: **TO DO**
+
+1. Create a new database called pubs with the following tables in the new database
+2. Save all these orders in the file whose name is **DDL_pubs.sql** inside the **DBM01-SQL** directory.
+
+&nbsp;
 
 👀 **Remember to not forget!**
 
 - Choose the appropriate data type for each record.
-- All table must have one, and only one, PRIMARY KEY.
+- All table **must have one, and only one**, PRIMARY KEY.
 - Properly format and document the code.
-- Save all these orders in the file whose name is **DDL_pubs.sql** inside the **DBM01-SQL** directory.
 
 &nbsp;
 <details>
@@ -91,7 +90,7 @@ Students:
         - id_nif IDENTIFIER.
         - employer_name
         - address
-    
+
 ##### TOWN
 
         - id_town IDENTIFIER.
@@ -103,7 +102,7 @@ Students:
         - stock      
         - price 
         - fk_id_pub
- 
+
 ##### PUB_EMPLOYER  
 
         - fk_id_pub IDENTIFIER.       
@@ -114,13 +113,16 @@ Students:
 
 &nbsp;
 &nbsp;
-<a name="fk-constraint"></a>
 
-#### ii. Updating the tables to create the foreign key constrains
+#### ii. DML
 
+***
 
+:pencil: **TO DO**
+
+1. Updating the tables to create the foreign key constrains
+2. Save all these orders in the file whose name is **DML_pubs.sql** inside the **DBM01-SQL** directory.
 
 👀 **Remember to not forget!**
 
 - Properly format and document the code.
-- Save all these orders in the file whose name is **DML_pubs.sql** inside the **DBM01-SQL** directory.
