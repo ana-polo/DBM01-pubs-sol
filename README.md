@@ -52,7 +52,7 @@ Students:
 <a name="create"></a>
 
 #### i. Create a new database called pubs with the following tables in the new database
-
+****
 
 
 👀 **Remember to not forget!**
@@ -117,7 +117,7 @@ Students:
 <a name="fk-constraint"></a>
 
 #### ii. Updating the tables to create the foreign key constrains
-
+****
 
 
 👀 **Remember to not forget!**
