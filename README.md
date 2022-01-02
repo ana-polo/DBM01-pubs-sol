@@ -27,8 +27,9 @@
 ### 2. Technologies
 
 ***
-*MySQL Version 8.0*
-           * SQL-DDL: Data Definition Language.
+*MySQL* Version 8.0
+
+- *SQL-DDL*: Data Definition Language.
 
 &nbsp;
 <a name="collaboration"></a>
@@ -69,45 +70,45 @@ Students:
 
 ##### PUBS
 
-        * id_pub IDENTIFIER. 
-        * pub_name 
-        * address 
-        * cif
-        * first_day
-        * time_open
-        * post_code 
-        * town
+        - id_pub IDENTIFIER. 
+        - pub_name 
+        - address 
+        - cif
+        - first_day
+        - time_open
+        - post_code 
+        - town
   
-*PUB_OWNWER*  
+##### PUB_OWNWER  
 
-        * id_nif IDENTIFIER.
-        * owner_name
-        * address
-        * pub
+        - id_nif IDENTIFIER.
+        - owner_name
+        - address
+        - pub
 
-*EMPLOYER*
+##### EMPLOYER
 
-        * id_nif IDENTIFIER.
-        * employer_name
-        * address
+        - id_nif IDENTIFIER.
+        - employer_name
+        - address
+    
+##### TOWN
 
-*TOWN*
+        - id_town IDENTIFIER.
+        - name
 
-        * id_town IDENTIFIER.
-        * name
+##### PRODUCT  
 
-*PRODUCT*  
+        - id_product IDENTIFIER.
+        - stock      
+        - price 
+        - fk_id_pub
+ 
+##### PUB_EMPLOYER  
 
-        * id_product IDENTIFIER.
-        * stock      
-        * price 
-        * fk_id_pub
-  
-##### PUB_EMPLOYER*  
-
-        * fk_id_pub IDENTIFIER.       
-        * id_employer IDENTIFIER.
-        * role
+        - fk_id_pub IDENTIFIER.       
+        - id_employer IDENTIFIER.
+        - role
 
 </details>
 
