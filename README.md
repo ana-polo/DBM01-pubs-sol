@@ -48,10 +48,10 @@ Students:
 
 ***
 
-:pencil: **TO DO**
+📝 **TO DO**
 
-1. Create a new database called pubs with the following tables in the new database
-2. Save all these orders in the file whose name is **DDL_pubs.sql** inside the **DBM01-SQL** directory.
+    1. Create a new database called pubs with the following tables in the new database
+    2. Save all these orders in the file whose name is **DDL_pubs.sql** inside the **DBM01-SQL** directory.
 
 &nbsp;
 
@@ -114,19 +114,16 @@ Students:
 &nbsp;
 &nbsp;
 
-<<<<<<< HEAD
 #### ii. DML
 
 ***
-=======
-#### ii. Updating the tables to create the foreign key constrains
-****
->>>>>>> 949706cc612af790b72c251c2c9d0681e0e3d500
 
-:pencil: **TO DO**
+📝 **TO DO**
 
-1. Updating the tables to create the foreign key constrains
-2. Save all these orders in the file whose name is **DML_pubs.sql** inside the **DBM01-SQL** directory.
+    1. Updating the tables to create the foreign key constrains
+    2. Save all these orders in the file whose name is **DML_pubs.sql** inside the **DBM01-SQL** directory.
+
+&nbsp;
 
 👀 **Remember to not forget!**
 
