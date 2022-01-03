@@ -8,6 +8,7 @@
 2. Technologies.
 3. Collaboration.
 4. Problem definition.
+
     1. DDL01: Creation of the tables of the DB.
     2. DDL02: Updating the tables to create the foreign key constrains.
 
