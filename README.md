@@ -4,12 +4,12 @@
 
 ## Table of Contents
 
-1. [General Info.](#1.-General-Info)
-2. [Technologies.](#2.-Technologies)
-3. [Collaboration.](#3.-Collaboration)
-4. [Problem definition.](#4.-Problem-definition)
-    1. [Creation of the tables of the DB.](# i.-DDL)
-    2. [Updating the tables to create the foreign key constrains.](#ii.-DML)
+1. General Info.
+2. Technologies.
+3. Collaboration.
+4. Problem definition.
+    1. DDL: Creation of the tables of the DB.
+    2. DML: Updating the tables to create the foreign key constrains.
 
 &nbsp;
 
