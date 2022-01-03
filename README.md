@@ -17,7 +17,7 @@
 
 ***
 
-*Training exercise of design and management of databases carried out in the field of Database Management in the Higher Vocational training Degree in Management of Computer Network Systems.*
+Training exercise of design and management of databases carried out in the field of Database Management in the Higher Vocational training Degree in Management of Computer Network Systems.
 
 &nbsp;
 
@@ -66,7 +66,7 @@
 <details>
     <summary>CLICK ME TO SEE THE TABLES DEFINITION</summary>
 
-<br />
+&nbsp;
 
 ##### PUBS
 
