@@ -114,9 +114,14 @@ Students:
 &nbsp;
 &nbsp;
 
+<<<<<<< HEAD
 #### ii. DML
 
 ***
+=======
+#### ii. Updating the tables to create the foreign key constrains
+****
+>>>>>>> 949706cc612af790b72c251c2c9d0681e0e3d500
 
 :pencil: **TO DO**
 
