@@ -8,8 +8,8 @@
 2. Technologies.
 3. Collaboration.
 4. Problem definition.
-    1. DDL: Creation of the tables of the DB.
-    2. DML: Updating the tables to create the foreign key constrains.
+    1. DDL01: Creation of the tables of the DB.
+    2. DDL02: Updating the tables to create the foreign key constrains.
 
 &nbsp;
 
@@ -51,8 +51,7 @@ Training exercise of design and management of databases carried out in the field
 
 📝 **TO DO**
 
-    1. Create a new database called pubs with the following tables in the new database
-    2. Save all these orders in a file named DDL_pubs.sql in the DBM01-SQL directory.
+    1. Save all the orders in a file named DDL_pubs.sql in the DBM01-SQL directory.
 
 &nbsp;
 
@@ -63,6 +62,17 @@ Training exercise of design and management of databases carried out in the field
 - Properly format and document the code.
 
 &nbsp;
+
+##### a. DDL CREATE
+
+***
+
+📝 **TO DO**
+
+    1. Create a new database called pubs with the following tables in the new database.
+
+&nbsp;
+
 <details>
     <summary>CLICK ME TO SEE THE TABLES DEFINITION</summary>
 
@@ -115,17 +125,10 @@ Training exercise of design and management of databases carried out in the field
 &nbsp;
 &nbsp;
 
-#### ii. DML
+##### b. DDL ALTER
 
 ***
 
 📝 **TO DO**
 
-    1. Updating the tables to create the foreign key constrains
-    2. Save all these orders in a file named DML_pubs.sql in the DBM01-SQL directory.
-
-&nbsp;
-
-👀 **Remember to not forget!**
-
-- Properly format and document the code.
+    1. After the CREATES, updating the tables to create the foreign key constrains.
