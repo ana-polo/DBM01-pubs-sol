@@ -50,7 +50,7 @@
 📝 **TO DO**
 
     1. Create a new database called pubs with the following tables in the new database
-    2. Save all these orders in the file whose name is **DDL_pubs.sql** inside the **DBM01-SQL** directory.
+    2. Save all these orders in a file named DDL_pubs.sql in the DBM01-SQL directory.
 
 &nbsp;
 
@@ -120,7 +120,7 @@
 📝 **TO DO**
 
     1. Updating the tables to create the foreign key constrains
-    2. Save all these orders in the file whose name is **DML_pubs.sql** inside the **DBM01-SQL** directory.
+    2. Save all these orders in a file named DML_pubs.sql in the DBM01-SQL directory.
 
 &nbsp;
 
