@@ -25,14 +25,13 @@
 ***
 *MySQL* Version 8.0
 
-- *SQL-DDL*: Data Definition Language.
+- **SQL-DDL**: Data Definition Language.
 
 &nbsp;
 
 ### 3. Collaboration
 
 ***
-Students:
 
 - *Haplo35.*
 - *ErnestoPGH.*
