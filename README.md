@@ -4,18 +4,19 @@
 
 ## Table of Contents
 
-1. [General Info.](#1.-General-Info)
-2. [Technologies.](#2.-Technologies)
-3. [Collaboration.](#3.-Collaboration)
-4. [Problem definition.](#4.-Problem-definition)
-    1. [Creation of the tables of the DB.](# i.-DDL)
-    2. [Updating the tables to create the foreign key constrains.](#ii.-DML)
+1. General Info.
+2. Technologies.
+3. Collaboration.
+4. Problem definition.
+    1. DDL: Creation of the tables of the DB.
+    2. DML: Updating the tables to create the foreign key constrains.
 
 &nbsp;
 
 ### 1. General Info
 
 ***
+
 *Training exercise of design and management of databases carried out in the field of Database Management in the Higher Vocational training Degree in Management of Computer Network Systems.*
 
 &nbsp;
@@ -23,6 +24,7 @@
 ### 2. Technologies
 
 ***
+
 *MySQL* Version 8.0
 
 - **SQL-DDL**: Data Definition Language.
@@ -68,45 +70,45 @@
 
 ##### PUBS
 
-        - id_pub IDENTIFIER. 
-        - pub_name 
-        - address 
-        - cif
-        - first_day
-        - time_open
-        - post_code 
-        - town
+    - id_pub IDENTIFIER. 
+    - pub_name 
+    - address 
+    - cif
+    - first_day
+    - time_open
+    - post_code 
+    - town
   
 ##### PUB_OWNWER  
 
-        - id_nif IDENTIFIER.
-        - owner_name
-        - address
-        - pub
+    - id_nif IDENTIFIER.
+    - owner_name
+    - address
+    - pub
 
 ##### EMPLOYER
 
-        - id_nif IDENTIFIER.
-        - employer_name
-        - address
+    - id_nif IDENTIFIER.
+    - employer_name
+    - address
 
 ##### TOWN
 
-        - id_town IDENTIFIER.
-        - name
+    - id_town IDENTIFIER.
+    - name
 
 ##### PRODUCT  
 
-        - id_product IDENTIFIER.
-        - stock      
-        - price 
-        - fk_id_pub
+    - id_product IDENTIFIER.
+    - stock      
+    - price 
+    - fk_id_pub
 
 ##### PUB_EMPLOYER  
 
-        - fk_id_pub IDENTIFIER.       
-        - id_employer IDENTIFIER.
-        - role
+    - fk_id_pub IDENTIFIER.       
+    - id_employer IDENTIFIER.
+    - role
 
 </details>
 
