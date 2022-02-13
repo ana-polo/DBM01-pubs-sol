@@ -1,6 +1,6 @@
-# DBM01-pubs-sol
+# DBM01 Pubs solutions
 
-![Logo de Team](https://github.com/ana-polo/DBM01-pubs/blob/main/DBM.gif "Team logo")
+![Logo de Team](https://github.com/ana-polo/DBM01-pubs-sol/blob/main/DBM.gif "Team logo")
 
 ## Table of Contents
 
